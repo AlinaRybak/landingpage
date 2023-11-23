@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./fonts/FontsFree-Net-Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./fonts/FontsFree-Net-Gilroy-medium.ttf') format('truetype');
+    font-weight: 400; 
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FFF;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* part one */
+
+.container-one{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.062rem;
+    margin-bottom: 1.991rem;
+    color: #828282;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.nav-home{
+    color: #070707;
+}
+
+.line{
+    stroke-width: 1px;
+    stroke: #828282;
+}
+
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.477rem;
+    margin-bottom: 3.104rem;
+}
+
+.name{
+    color: #070707;
+    font-size: 2.959rem;
+    font-weight: 400;
+}
+
+.prof{
+    display: flex;
+    align-items: flex-end;
+    color:#070707;
+    font-family: Gilroy-Medium;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.lang{
+    display: flex;
+    align-self: flex-end;
+    transform: rotate(270deg);
+    transform-origin: bottom right;
+    margin-bottom: 4rem;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.lang-by{
+    color: #828282;
+}
+
+.img-container{
+    max-width: 100%; 
+    margin: 0 auto;
+    margin-bottom: 6.504rem;
+}
+
+.img-container img{
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+/* about me */
+
+.container-about{
+    max-width: 100%;
+    margin: 0 auto;
+    background:#F6F6F6; 
+}
+
+.aboutme{
+    color: #070707;
+    text-align: center;
+    font-size: 2.125rem;
+    font-weight: 400;
+    padding-top: 7.516rem;
+    padding-bottom: 1.1rem;
+    margin: 0;
+}
+
+.text-about{
+    color:#070707;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-bottom: 6.688rem;
+}
+
+.text-about p{
+    margin-bottom: 2rem;
+}
+
+/* skills */
+
+.container-skills{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.title-skills{
+    color: #070707;
+    text-align: center;
+    font-size: 2.125rem;
+    font-weight: 400;
+    padding-top: 5.688rem;
+    padding-bottom: 4.319rem;
+    margin: 0;
+}
+
+.text-skills{
+    color: #070707;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-bottom: 5.218rem;
+    }
+
+.skills-progs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6.879rem;
+}
+
+.skils-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-skills{   
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1.513rem;
+}
+
+.text-skill{
+    color: #828282;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-bottom: 2.526rem;
+}
+
+/* portfolio */
+
+.container-portfolio{
+    max-width: 100%;
+    margin: 0 auto;
+    background:#F6F6F6; 
+    text-align: center;
+}
+
+.portfolio-title{
+    color: #070707;
+    text-align: center;
+    font-size: 2.125rem;
+    font-weight: 400;
+    padding-top: 7.058rem;
+    padding-bottom: 2.938rem;
+    margin: 0;
+}
+
+.img-portfolio-container{
+    max-width: 80%; 
+    margin: 0 auto;
+    margin-bottom: 2.805rem;
+}
+
+.img-portfolio{
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+.text-portfolio{
+    color: #070707;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-decoration-line: underline;
+    padding-bottom: 6.193rem;
+}
+
+/* contacts */
+
+.container-contacts{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contacts-title{
+    padding-top: 7.14rem;
+    padding-bottom: 1.252rem;
+    color:#070707;
+    text-align: center;
+    font-size: 2.125rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.contacts-text{
+    padding-bottom: 1.85rem;
+    color: #070707;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.contacts-btn{
+    background-image: url('./image/chip\ bg.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+    overflow: hidden;
+    margin-bottom: 4.986rem;
+    padding: 10px;
+}
+
+.btn-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.soc-contacts{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 2.874rem;
+}
+
+.soc-contacts-item{
+    max-width: 100%;
+    height: auto;
+    padding-right: 4rem;
+}
+
+.soc-cont-item{
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-me{
+    color: #828282;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-bottom: 7.699rem;
+}
